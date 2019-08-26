@@ -1,3 +1,4 @@
+#coding:utf-8
 import pdfkit
 
 ACESS_PATH = '/opt/di/server/diserver/uiservice/app/report/'
