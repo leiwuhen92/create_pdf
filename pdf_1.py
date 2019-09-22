@@ -6,9 +6,8 @@ url = "https://10.21.144.110:8443/#/dashboard"
 
 confg =pdfkit.configuration(wkhtmltopdf=r"C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe")
 
-pdfkit.from_url(url,'url.pdf',configuration=confg)
-
-#pdfkit.from_file('my.html', 'html.pdf',configuration=confg)
+#pdfkit.from_url(url,'url.pdf',configuration=confg)
+pdfkit.from_file('百度.html', '百度.pdf',configuration=confg)
 
 
 html='''
